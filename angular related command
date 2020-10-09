@@ -1,0 +1,120 @@
+	-------------  Angular_with_Cordova --------------------------------
+	
+		Npm install -g cordova
+		Cardova create cordova_app
+		Cordova platform add browser 
+		Cordova platform add browser 
+		Cordova run browser 
+		 Step for environment variable :  - ANDROID_HOME
+		C:\Users\Optebiz\AppData\Local\Android\Sdk
+		Add in Path of Environment Variable : - C:\Users\Optebiz\AppData\Local\Android\Sdk\platforms
+		C:\Users\Optebiz\AppData\Local\Android\Sdk\platform-tools
+
+	--------------------------------------------------------------------------------
+	
+	-----------  Angular and nativescript --------------------------------
+	
+
+     npm install --save-dev @angular-devkit/build-angular
+	 
+ 
+				               convert component
+	|____________________________________________________________________________________________________			
+	|HomeComponent        |             ------         HomeComponent
+	|                     | 
+	|home.component.ts    |         --------------   home.component.ts
+	|                     |  
+	|home.component.html  |        ---------------   home.component.html -- home.component.tns.html 
+	|                     |
+	|home.component.scss  |         ---------------  home.component.scss -- home.component.tns.scss
+	|_____________________|____________________________________________________________________________
+	|                     |
+	| menu.routes.ts      |  menu.routes.ts    -----   menu.common.ts
+    |_____________________|_____________________________________________________________________________
+	|                     |
+	| menu.module.ts      |  menu.module.ts    ------ menu.module.tns.ts
+	|_____________________|_____________________________________________________________________________
+ 
+	
+	1. npm install
+	2. ng new project name
+	3. ng serve --o
+	4. ng g c componentname
+	5. ng generate componentname
+	 
+	
+	
+	ng new -c=@nativescript/schematic --name=my-name --shared
+	
+	ng add @nativscript/schematics
+	ng new projectName 
+	1. ng new myapp
+	2. ng add @nativescript/schematics
+	3. ng serve
+	4. tns run[ios|android] --bundle
+	5. ng g migrate-component --name=home        ng g migrate-component --name=cmp-name
+	6. ng g migrate-module --name=menu           ng g migrate-module --name=mod-name
+	7. tns run android --bundle
+	
+	   tns migrate --force
+	8. ng add @angular/material
+	9. npm install --save @angular/cdk @angular/material @angular/animation hammerjs
+	
+	
+	this is website for component :- https://docs.nativescript.org/angular/ui/ng-components/image
+	
+	1. tns plugin add nativescript-checkbox
+	2. tns plugin add nativescript-ui-chart
+	3. tns plugin add nativescript-ui-chart 
+    4. npm install @nativescript/theme --save
+	
+	package.json
+	
+	
+	solution  :-    update-ns-webpack
+	
+	
+	
+	solution :- npm install copy-webpack-plugin --save-dev
+	
+	
+	
+	
+	Command:-
+	
+	
+	npm install nativescript-material-icons --save
+	tns plugin add nativescript-ui-sidedrawer
+	tns plugin add nativescript-ui-autocomplete
+	tns plugin add nativescript-angular/common
+	tns plugin add nativescript-ui-gauge  
+	tns migrate --force
+	
+	
+	
+	tns plugin add tns-core-modules
+	
+	tns platform remove android
+ 
+	
+	
+	
+	--------------------  ionic ------------------------------
+	
+	npm install -g @ionic/cli
+	
+	npm uninstall -g ionic
+
+	ionic start myApp tabs
+	ionic start myapp sidemenu
+	
+	ionic serve 
+	
+	ng.cmd run app:serve --host=localhost --port=8100 // default port
+	
+	npm install @swimlane/ngx-datatable --save    
+	
+	
+	
+	
+	
